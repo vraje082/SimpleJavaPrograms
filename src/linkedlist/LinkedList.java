@@ -13,5 +13,5 @@ public interface LinkedList {
 
     public void delete(int data);
 
-    public LinkedList reverseLinkedList(LinkedList linkedList);
+    public void reverseLinkedList();
 }

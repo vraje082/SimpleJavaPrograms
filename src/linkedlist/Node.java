@@ -7,10 +7,12 @@ public class Node {
 
     private int data;
     private Node nextNode;
+    private Node previousNode;
 
     public Node(int data) {
         this.data = data;
         this.nextNode = null;
+        this.previousNode = null;
     }
 
     public void setData(int data) {
@@ -27,6 +29,14 @@ public class Node {
 
     public Node getNextNode() {
         return this.nextNode;
+    }
+
+    public Node getPreviousNode() {
+        return previousNode;
+    }
+
+    public void setPreviousNode(Node previousNode) {
+        this.previousNode = previousNode;
     }
 
     @Override
