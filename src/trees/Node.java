@@ -8,6 +8,7 @@ public class Node {
     private int data;
     private Node leftNode = null;
     private Node rightNode = null;
+    private Node parentNode = null;
 
     public Node(int data) {
         this.data = data;
@@ -35,6 +36,14 @@ public class Node {
 
     public Node getRightNode() {
         return this.rightNode;
+    }
+
+    public void setParentNode(Node node) {
+        this.parentNode = node;
+    }
+
+    public Node getParentNode() {
+        return this.parentNode;
     }
 
     @Override
