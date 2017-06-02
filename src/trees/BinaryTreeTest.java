@@ -25,7 +25,7 @@ public class BinaryTreeTest {
         binaryTree.add(90);
 
         binaryTree.delete(50);
-        //Node node = binaryTree.minLeftTraversalNode(binaryTree.find(75));
+        Node node = binaryTree.minLeftTraversalNode(binaryTree.find(75));
         System.out.println();
     }
 }

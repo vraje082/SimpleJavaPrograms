@@ -5,7 +5,7 @@ package linkedlist;
  */
 public interface LinkedList {
 
-    public void add(int data);
+    public abstract void add(int data);
 
     public Node search(int data);
 
