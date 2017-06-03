@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5d9ed0c-3a4f-4df1-8eb1-35fefcb03b1c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/linkedlist/DoubleLinkedList.class" afterPath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/linkedlist/DoubleLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/linkedlist/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/linkedlist/LinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/linkedlist/SingleLinkedList.class" afterPath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/linkedlist/SingleLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/trees/BinaryTreeTest.class" afterPath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/trees/BinaryTreeTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/DoubleLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/DoubleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/linkedlist/SingleLinkedList.java" afterPath="$PROJECT_DIR$/src/linkedlist/SingleLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/trees/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/src/trees/BinaryTreeTest.java" />
-    </list>
+    <list default="true" id="a5d9ed0c-3a4f-4df1-8eb1-35fefcb03b1c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +31,8 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -697,7 +687,7 @@
       <option name="presentableId" value="Default" />
       <updated>1496281040587</updated>
       <workItem from="1496281047948" duration="22537000" />
-      <workItem from="1496374679985" duration="4288000" />
+      <workItem from="1496374679985" duration="5614000" />
     </task>
     <servers />
   </component>
@@ -734,7 +724,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26825000" />
+    <option name="totallyTimeSpent" value="28151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -838,20 +828,20 @@
         <state relative-caret-position="109">
           <caret line="16" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#387#388#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+            <element signature="e#461#462#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#530#531#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#603#604#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#692#693#0" expanded="false" />
+            <element signature="e#740#741#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#838#839#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -914,8 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
