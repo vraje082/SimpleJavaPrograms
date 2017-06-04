@@ -9,6 +9,7 @@ import java.util.Map;
 
 /**
  * Write code to remove duplicates from unsorted linked list
+ * <p>
  */
 public class Excercise1 {
     public SingleLinkedList removeDuplicatesWithMap(SingleLinkedList singleLinkedList) {
@@ -29,7 +30,26 @@ public class Excercise1 {
         return singleLinkedList;
     }
 
+    //1 2 3 4 5 6 4 7 2 9
     public void removeDuplicatesWithoutMap(SingleLinkedList singleLinkedList) {
+        Node current = singleLinkedList.head;
+        Node temp = singleLinkedList.head;
+        int index = 0;
+
+        while (current != null) {
+            while (temp != null) {
+                if (temp.getNextNode() != null) {
+                    temp = temp.getNextNode();
+                } else {
+                    temp = null;
+                }
+            }
+            if (current.getNextNode() != null) {
+                current = current.getNextNode();
+            } else {
+                current = null;
+            }
+        }
     }
 
     @Test
