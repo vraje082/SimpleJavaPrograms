@@ -3,7 +3,7 @@ package linkedlist;
 /**
  * Created by Vasanth on 2017-05-31.
  */
-public class DoubleLinkedList extends LinkedList {
+public class DoubleLinkedList implements LinkedList {
 
     Node head = null;
     Node tail = null;

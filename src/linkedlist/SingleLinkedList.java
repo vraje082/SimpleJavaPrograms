@@ -5,7 +5,7 @@ package linkedlist;
  * <p>
  * 1 2 3 4 5
  */
-public class SingleLinkedList extends LinkedList {
+public class SingleLinkedList implements LinkedList {
 
     Node head = null;
     Node tail = null;
