@@ -7,8 +7,8 @@ package linkedlist;
  */
 public class SingleLinkedList implements LinkedList {
 
-    Node head = null;
-    Node tail = null;
+    public Node head = null;
+    public Node tail = null;
     Node temp = null;
 
     /**
