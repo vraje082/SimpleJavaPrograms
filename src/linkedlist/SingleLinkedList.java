@@ -143,9 +143,8 @@ public class SingleLinkedList implements LinkedList {
     public void reverseLinkedList() {
         if (head != null) {
             Node currentNode = head;
-            Node previousNode = null;
             Node nextNode = null;
-
+            Node previousNode = null;
             tail = currentNode;
             while (currentNode != null) {
                 nextNode = currentNode.getNextNode();
@@ -155,8 +154,6 @@ public class SingleLinkedList implements LinkedList {
                     head = currentNode;
                 }
                 currentNode = nextNode;
-
-
             }
         }
     }

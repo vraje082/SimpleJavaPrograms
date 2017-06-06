@@ -18,7 +18,7 @@ public class LinkedListTest {
 
         singleLinkedList.print();
         System.out.println("");
-        singleLinkedList.delete(5);
+        //singleLinkedList.delete(5);
         singleLinkedList.reverseLinkedList();
         singleLinkedList.print();
     }
