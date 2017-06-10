@@ -17,7 +17,6 @@ public class SortTheOdd {
             if (array[k] % 2 != 0) index = index + 1;
         }
         int[] newArray = new int[index];
-        index = 0;
         for (Integer i : array) {
             if (i % 2 != 0) {
                 newArray[index] = i;
