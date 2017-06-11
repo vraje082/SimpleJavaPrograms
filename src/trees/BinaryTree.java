@@ -3,8 +3,8 @@ package trees;
 /**
  * Created by Vasanth on 2017-06-01.
  * <p>
- * 5
- * 4         7
+ *        5
+ *   4         7
  * 3   1     6   9
  */
 public class BinaryTree {
