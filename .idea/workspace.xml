@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5d9ed0c-3a4f-4df1-8eb1-35fefcb03b1c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/LeftRotation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/PrintReverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/SolveMeFirst.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/TwoDimensionalArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/twoDArray.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/Arraylist.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Arraylist.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/codewars/SortTheOdd.class" afterPath="$PROJECT_DIR$/out/production/SimpleJavaPrograms/codewars/SortTheOdd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/codewars/SortTheOdd.java" afterPath="$PROJECT_DIR$/src/codewars/SortTheOdd.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,36 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Persistence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codewars/Persistence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmallestIntegerFinder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codewars/SmallestIntegerFinder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DuplicateEncoder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codewars/DuplicateEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SortTheOdd.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codewars/SortTheOdd.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,12 +69,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hackerrank/LeftRotation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="114" column="26" lean-forward="true" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hackerrank/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/trees/Node.java" />
-        <option value="$PROJECT_DIR$/src/trees/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/trees/BinaryTreeTest.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/DoubleLinkedList.java" />
@@ -208,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/hackerrank/PrintReverse.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/twoDArray.java" />
         <option value="$PROJECT_DIR$/src/hackerrank/TwoDimensionalArray.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/Node.java" />
+        <option value="$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java" />
       </list>
     </option>
   </component>
@@ -284,6 +270,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="linkedlist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleJavaPrograms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SimpleJavaPrograms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="hackerrank" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -309,27 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoDimensionalArray">
-    <configuration default="false" name="PrintReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hackerrank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="hackerrank.PrintReverse" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SimpleJavaPrograms" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrintLinkedList.test">
     <configuration default="false" name="TwoDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -410,6 +394,32 @@
       <option name="MAIN_CLASS_NAME" value="hackerrank.TwoDimensionalArray" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PrintLinkedList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="hackerrank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SimpleJavaPrograms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hackerrank" />
+      <option name="MAIN_CLASS_NAME" value="hackerrank.PrintLinkedList" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -810,19 +820,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PrintReverse" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TwoDimensionalArray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.twoDArray" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TwoDimensionalArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.twoDArray" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray.test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PrintLinkedList.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray.test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.twoDArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TwoDimensionalArray" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PrintReverse" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrintLinkedList.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TwoDimensionalArray.test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.twoDArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TwoDimensionalArray" />
       </list>
     </recent_temporary>
   </component>
@@ -848,47 +858,48 @@
       <workItem from="1496793552891" duration="11557000" />
       <workItem from="1496949847922" duration="11280000" />
       <workItem from="1496972405003" duration="8758000" />
-      <workItem from="1497116123012" duration="5178000" />
+      <workItem from="1497116123012" duration="12564000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 42m 40s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 22m 34s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 42m 51s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 23m 38s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 43m 58s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 24m 19s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 44m 14s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 24m 42s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 46m 26s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 29m 18s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 46m 46s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 30m 43s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 47m 16s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 31m 56s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 47m 42s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 33m 22s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 48m 26s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 16h 35m 06s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoDimensionalArray - 2017.06.10 at 14h 48m 43s.xml">
-      <configuration name="TwoDimensionalArray" configurationId="JUnit" />
+    <history-entry file="PrintLinkedList_test - 2017.06.10 at 17h 03m 08s.xml">
+      <configuration name="PrintLinkedList.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94717000" />
+    <option name="totallyTimeSpent" value="102103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -900,7 +911,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3726977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3726977" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -912,7 +923,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37811485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37811485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1105,13 +1116,32 @@
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="88" />
+      <option name="time" value="98" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="i" />
-        <watch expression="j" />
+        <watch expression="index" />
+        <watch expression="position" />
+        <watch expression="temp" />
       </configuration>
       <configuration name="Application">
         <watch expression="i" />
@@ -1124,20 +1154,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/CircularLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2686">
@@ -1212,13 +1228,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/interview/ReverseLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/SingleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="154" column="17" lean-forward="false" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1544,6 +1553,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="155" column="39" lean-forward="true" selection-start-line="155" selection-start-column="39" selection-end-line="155" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hackerrank/PrintLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="114" column="26" lean-forward="true" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
           <folding />
         </state>
       </provider>
