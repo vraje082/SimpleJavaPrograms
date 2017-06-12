@@ -8,7 +8,7 @@ import org.junit.Test;
 public class BinarySearchTreeTest {
 
     @Test
-    public void test(){
+    public void test() {
         BinarySearchTree binarySearchTree = new BinarySearchTree();
         binarySearchTree.add(50);
         binarySearchTree.add(25);
@@ -23,9 +23,12 @@ public class BinarySearchTreeTest {
         binarySearchTree.add(77);
         binarySearchTree.add(100);
 
+        int n = binarySearchTree.printDistance(binarySearchTree.search(50), 15, 70);
 
-        Node n1 = binarySearchTree.minNode(binarySearchTree.search(80));
         String s = "";
+
+        // binarySearchTree.topView(binarySearchTree.search(47));
 
     }
 }
+
