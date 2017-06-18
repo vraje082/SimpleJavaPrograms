@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Write a method to replace all empty spaces in a string with %20
  */
-public class Excercise4 {
+public class replaceEmptySpace {
 
     public char[] insertCharactersInbetween(char[] input) {
         int index = 0;

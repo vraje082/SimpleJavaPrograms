@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures.
  */
-public class Excercise1 {
+public class UniqueCharacters {
 
     public boolean checkIfTheStringIsUnique(char[] input) {
         boolean[] array = new boolean[256];

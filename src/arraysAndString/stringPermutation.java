@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Given two strings , check if one string is permutation of one another
  */
-public class Excercise3 {
+public class stringPermutation {
     public boolean checkIfTheStringIsPermutationOfOther(String input1, String input2) {
         char[] array1 = getCharacterCount(input1);
         char[] array2 = getCharacterCount(input2);

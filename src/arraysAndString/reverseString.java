@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Implement a function to reverse a null terminated string
  */
-public class Excercise2 {
+public class reverseString {
     int index = 0;
 
     public char[] reverseStringIteratively(char[] input) {
