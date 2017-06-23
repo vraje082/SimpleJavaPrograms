@@ -10,27 +10,25 @@ public class Factorial {
     int fact = 1;
 
     public int findFactorialRecursively(int n) {
-        if (n == 1) {
-            return 1;
-        }
-        for (int i = n; i > 0; i--) {
+        if (n == 1) return 1;
+        else {
             fact = n * findFactorialRecursively(n - 1);
         }
         return fact;
     }
 
-    public void findFactorialIteratively(int n) {
-        int fact =1;
-        for(int i=n;i>0;i--){
-            fact = fact*i;
+    public int findFactorialIteratively(int n) {
+        fact = n;
+        for (int i = n; i > 1; i--) {
+            fact = fact*(i - 1);
         }
-
-        System.out.println(fact);
+        return fact;
     }
 
     @Test
     public void test() {
-      //  System.out.println(findFactorialRecursively(5));
-        findFactorialIteratively(5);
+        //  System.out.println(findFactorialRecursively(5));
+        // System.out.println(findFactorialRecursively(5));
+        System.out.println(findFactorialIteratively(5));
     }
 }

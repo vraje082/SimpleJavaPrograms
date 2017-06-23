@@ -1,5 +1,8 @@
 package trees;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  *
  */
@@ -10,27 +13,43 @@ public class GenericBinaryTree<T> {
         GenericNode node = new GenericNode(data);
 
         if (root == null) {
+            // No Nodes are Present, create one and assign it to rootNode
             root = node;
         } else {
-            traverseAndAdd(root, node);
-        }
+            //Nodes present, So checking vacant position for adding new Node in sequential fashion
 
-    }
-
-    public void traverseAndAdd(GenericNode root, GenericNode nodeToAdd) {
-
-        if (root != null) {
-            if (root.getLeftNode() == null) {
-                root.setLeftNode(nodeToAdd);
-                return;
-
-            } else if (root.getRightNode() == null) {
-                root.setRightNode(nodeToAdd);
-                return;
-            } else {
-                traverseAndAdd(root.getLeftNode(), nodeToAdd);
-                traverseAndAdd(root.getRightNode(), nodeToAdd);
+            Queue<GenericNode> q = new LinkedList<GenericNode>();
+            q.add(root);
+            while (!q.isEmpty()) {
+                GenericNode node1 = q.poll();
+                if (node1.getLeftNode() != null && node1.getRightNode() != null) {
+                    q.add(node1.getLeftNode());
+                    q.add(node1.getRightNode());
+                } else {
+                    if (node1.getLeftNode() == null) {
+                        node1.setLeftNode(node);
+                    } else {
+                        node1.setRightNode(node);
+                    }
+                    break;
+                }
             }
         }
+    }
+
+    private void printTreeLevelOrder(Node rootNode) {
+        if (rootNode == null)
+            return;
+        Queue<Node> q = new LinkedList<Node>();
+        q.add(rootNode);
+        while (!q.isEmpty()) {
+            Node node = q.poll();
+            System.out.print(node.getData() + " ");
+            if (node.getLeftNode() != null)
+                q.add(node.getLeftNode());
+            if (node.getRightNode() != null)
+                q.add(node.getRightNode());
+        }
+
     }
 }
