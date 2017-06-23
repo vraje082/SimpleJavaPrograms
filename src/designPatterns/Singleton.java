@@ -9,16 +9,9 @@ public class Singleton {
         System.out.println("Instance created");
     }
 
-    private static Singleton instance = null;
+    private static final Singleton instance = new Singleton();
 
     public static Singleton getInstance() {
-        if (instance == null) {
-            synchronized (Singleton.class) {
-                if (instance == null) {
-                    instance = new Singleton();
-                }
-            }
-        }
         return instance;
     }
 }

@@ -9,7 +9,7 @@ import java.util.Queue;
 public class GenericBinaryTree<T> {
     GenericNode root;
 
-    public void add(char data) {
+    public void add(String data) {
         GenericNode node = new GenericNode(data);
 
         if (root == null) {
@@ -37,13 +37,13 @@ public class GenericBinaryTree<T> {
         }
     }
 
-    private void printTreeLevelOrder(Node rootNode) {
+    private void printTreeLevelOrder(GenericNode rootNode) {
         if (rootNode == null)
             return;
-        Queue<Node> q = new LinkedList<Node>();
+        Queue<GenericNode> q = new LinkedList<GenericNode>();
         q.add(rootNode);
         while (!q.isEmpty()) {
-            Node node = q.poll();
+            GenericNode node = q.poll();
             System.out.print(node.getData() + " ");
             if (node.getLeftNode() != null)
                 q.add(node.getLeftNode());
@@ -51,5 +51,16 @@ public class GenericBinaryTree<T> {
                 q.add(node.getRightNode());
         }
 
+    }
+
+    public boolean isSubtree(GenericNode dom, GenericNode vdom) {
+        return stringFromPreOrder(dom).indexOf(stringFromPreOrder(vdom)) > -1;
+    }
+
+    public String stringFromPreOrder(GenericNode dom) {
+        if (dom == null) {
+            return "";
+        }
+        return dom.getData() + stringFromPreOrder(dom.getLeftNode()) + stringFromPreOrder(dom.getRightNode());
     }
 }

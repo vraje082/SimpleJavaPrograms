@@ -4,19 +4,19 @@ package trees;
  * Created by vasanthan on 2017-06-19.
  */
 public class GenericNode {
-    private char data;
+    private String data;
     private GenericNode leftNode;
     private GenericNode rightNode;
 
-    public GenericNode(char data) {
+    public GenericNode(String data) {
         this.data = data;
     }
 
-    public char getData() {
+    public String getData() {
         return data;
     }
 
-    public void setData(char data) {
+    public void setData(String data) {
         this.data = data;
     }
 
