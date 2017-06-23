@@ -98,11 +98,36 @@ public class LongestEvenNumber {
         return arrayList;
     }
 
+    public List<Integer> findEvenNumberWithList(List<Integer> list) {
+        List<List<Integer>> arrayList = new ArrayList<>();
+        List<Integer> tempList = new ArrayList<>();
+        int max = Integer.MIN_VALUE;
+        for (Integer i : list) {
+            if (i % 2 == 0) {
+                tempList.add(i);
+            } else {
+                if (!tempList.isEmpty()) {
+                    arrayList.add(tempList);
+                    tempList = new ArrayList<>();
+                }
+            }
+        }
+
+        for (List<Integer> i : arrayList) {
+            if (i.size() > max) max = i.size();
+        }
+
+        for (List<Integer> i : arrayList) {
+            if (i.size() == max) return i;
+        }
+        return null;
+    }
+
     @Test
     public void test() {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 40, 20, 7, 3, 80, 20, 40, 9)); // (-1,40,20,-1,-1,80,20,40,-1)
         //  list = findNumber(list);
-        list = findEvenNumber(list);
+        list = findEvenNumberWithList(list);
         list.forEach(item -> System.out.println(item));
     }
 }

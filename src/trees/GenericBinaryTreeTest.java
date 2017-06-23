@@ -9,7 +9,7 @@ public class GenericBinaryTreeTest {
     @Test
     public void test(){
         GenericNode vdomRoot = new GenericNode("a");
-        vdomRoot.setLeftNode(new GenericNode ("c "));
+        vdomRoot.setLeftNode(new GenericNode ("c"));
         vdomRoot.setRightNode(new GenericNode("d"));
         vdomRoot.getLeftNode().setLeftNode(new GenericNode("g"));
         vdomRoot.getLeftNode().setRightNode(new GenericNode("h"));
@@ -32,10 +32,11 @@ public class GenericBinaryTreeTest {
         domRoot.getRightNode().getLeftNode().getRightNode().setRightNode(new GenericNode("l"));
 
        GenericBinaryTree tree = new GenericBinaryTree();
-       System.out.println(tree.isSubtree(domRoot,vdomRoot));
+       //System.out.println(tree.isSubtree(domRoot,vdomRoot));
 
-      /*  String s1 = tree.stringFromPreOrder(domRoot);
+      // String s1 = tree.stringFromPreOrder(domRoot);
         String s2 = tree.stringFromPreOrder(vdomRoot);
-        System.out.println(s2.indexOf(s1));*/
+        //System.out.println(s2.indexOf(s1));
+        System.out.println(s2);
     }
 }
