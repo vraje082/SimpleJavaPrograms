@@ -53,8 +53,60 @@ public class GenericBinaryTree<T> {
 
     }
 
-    public boolean isSubtree(GenericNode dom, GenericNode vdom) {
+    /*public boolean isSubtree(GenericNode dom, GenericNode vdom) {
+        dom = preprocessString(dom);
+        vdom = preprocessString(vdom);
         return stringFromPreOrder(dom).indexOf(stringFromPreOrder(vdom)) > -1;
+    }*/
+
+
+    boolean areIdentical(GenericNode root1, GenericNode root2) {
+
+        /* base cases */
+        if (root1 == null && root2 == null)
+            return true;
+
+        if (root1 == null || root2 == null)
+            return false;
+
+        /* Check if the data of both roots is same and data of left and right
+           subtrees are also same */
+        return (root1.getData().equals(root2.getData())
+                && areIdentical(root1.getLeftNode(), root2.getLeftNode())
+                && areIdentical(root1.getRightNode(), root2.getRightNode()));
+    }
+
+    boolean isSubtree(GenericNode treeRootNode, GenericNode subtreeRootNode) {
+        /* base cases */
+        if (subtreeRootNode == null)
+            return true;
+
+        if (treeRootNode == null)
+            return false;
+
+        /* Check the tree with root as current node */
+        if (areIdentical(treeRootNode, subtreeRootNode))
+            return true;
+
+        /* If the tree with root as current node doesn't match then
+           try left and right subtrees one by one */
+        return isSubtree(treeRootNode.getLeftNode(), subtreeRootNode) || isSubtree(treeRootNode.getRightNode(), subtreeRootNode);
+    }
+
+    public GenericNode preprocessString(GenericNode node) {
+        node.setData(node.getData().toLowerCase());
+        if (node.getData().startsWith(" ") | node.getData().endsWith(" ")) {
+            node.setData(node.getData().trim());
+        }
+
+        if (node.getLeftNode() != null) {
+            preprocessString(node.getLeftNode());
+        }
+
+        if (node.getRightNode() != null) {
+            preprocessString(node.getRightNode());
+        }
+        return node;
     }
 
     public String stringFromPreOrder(GenericNode dom) {
