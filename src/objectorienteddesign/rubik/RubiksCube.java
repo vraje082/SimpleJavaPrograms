@@ -9,19 +9,27 @@ import java.util.List;
  * Created by vasanthan on 2017-06-25.
  */
 public class RubiksCube {
-    List<Block[][]> list = new ArrayList<>();
+    List<Side> list = new ArrayList<>();
 
     public RubiksCube() {
         list = initialize();
     }
 
-    private List<Block[][]> initialize() {
-        Block[][] side1 = initializeBlocksWithSameColour(new Block[3][3], Colour.BLUE);
-        Block[][] side2 = initializeBlocksWithSameColour(new Block[3][3], Colour.GREEN);
-        Block[][] side3 = initializeBlocksWithSameColour(new Block[3][3], Colour.ORANGE);
-        Block[][] side4 = initializeBlocksWithSameColour(new Block[3][3], Colour.RED);
-        Block[][] side5 = initializeBlocksWithSameColour(new Block[3][3], Colour.WHITE);
-        Block[][] side6 = initializeBlocksWithSameColour(new Block[3][3], Colour.YELLOW);
+    private List<Side> initialize() {
+        Side side1 = new Side(new Block[3][3]);
+        Side side2 = new Side(new Block[3][3]);
+        Side side3 = new Side(new Block[3][3]);
+        Side side4 = new Side(new Block[3][3]);
+        Side side5 = new Side(new Block[3][3]);
+        Side side6 = new Side(new Block[3][3]);
+
+
+        Side side1 = initializeBlocksWithSameColour(side1, Colour.BLUE);
+        Side side2 = initializeBlocksWithSameColour(side2, Colour.GREEN);
+        Side side3 = initializeBlocksWithSameColour(side3, Colour.ORANGE);
+        Side side4 = initializeBlocksWithSameColour(side4, Colour.RED);
+        Side side5 = initializeBlocksWithSameColour(side5, Colour.WHITE);
+        Side side6 = initializeBlocksWithSameColour(side6, Colour.YELLOW);
 
         list.add(side1);
         list.add(side2);
@@ -33,22 +41,22 @@ public class RubiksCube {
 
     }
 
-    private Block[][] initializeBlocksWithSameColour(Block[][] array, Colour colour) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[0].length; j++) {
-                array[i][j] = new Block(colour);
+    private Side initializeBlocksWithSameColour(Side side, Colour colour) {
+        for (int i = 0; i < side.getBlock().length; i++) {
+            for (int j = 0; j < side.getBlock()[0].length; j++) {
+                side.getBlock()[i][j] = new Block(colour);
             }
         }
-        return array;
+        return side;
     }
 
-    private void showCube(List<Block[][]> tempList) {
+    private void showCube(List<Side> tempList) {
         int index = 1;
-        for (Block[][] b : tempList) {
+        for (Side b : tempList) {
             System.out.println();
             System.out.println("Side" + index++);
             System.out.println();
-            showCubeBlock(b);
+            showCubeBlock(b.getBlock());
         }
     }
 
