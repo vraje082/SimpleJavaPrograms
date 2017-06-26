@@ -1,7 +1,5 @@
 package objectorienteddesign.vendingmachine;
 
-import java.util.List;
-
 /**
  * 1) Accepts coins of 1,5,10,25 Cents i.e. penny, nickel, dime, and quarter.
  * 2) Allow user to select products Coke(25), Pepsi(35), Soda(45)
@@ -9,14 +7,15 @@ import java.util.List;
  * 4) Return selected product and remaining change if any
  * 5) Allow reset operation for vending machine supplier.
  */
-public interface VendingMachine {
-    public long selectItemAndGetPrice(Item item);
+public enum Coin {
+    PENNY(1), NICKEL(5), DIME(10), QUARTER(25);
+    private int denomination;
 
-    public void insertCoin(Coin coin);
+    private Coin(int denomination) {
+        this.denomination = denomination;
+    }
 
-    public List<Coin> refund();
-
-    public Bucket<Item, List<Coin>> collectItemAndChange();
-
-    public void reset();
+    public int getDenomination() {
+        return this.denomination;
+    }
 }
