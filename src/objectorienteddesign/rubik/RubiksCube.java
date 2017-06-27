@@ -16,20 +16,13 @@ public class RubiksCube {
     }
 
     private List<Side> initialize() {
-        Side side1 = new Side(new Block[3][3]);
-        Side side2 = new Side(new Block[3][3]);
-        Side side3 = new Side(new Block[3][3]);
-        Side side4 = new Side(new Block[3][3]);
-        Side side5 = new Side(new Block[3][3]);
-        Side side6 = new Side(new Block[3][3]);
 
-
-        Side side1 = initializeBlocksWithSameColour(side1, Colour.BLUE);
-        Side side2 = initializeBlocksWithSameColour(side2, Colour.GREEN);
-        Side side3 = initializeBlocksWithSameColour(side3, Colour.ORANGE);
-        Side side4 = initializeBlocksWithSameColour(side4, Colour.RED);
-        Side side5 = initializeBlocksWithSameColour(side5, Colour.WHITE);
-        Side side6 = initializeBlocksWithSameColour(side6, Colour.YELLOW);
+        Side side1 = initializeBlocksWithSameColour(new Side(new Block[3][3]), Colour.BLUE);
+        Side side2 = initializeBlocksWithSameColour(new Side(new Block[3][3]), Colour.GREEN);
+        Side side3 = initializeBlocksWithSameColour(new Side(new Block[3][3]), Colour.ORANGE);
+        Side side4 = initializeBlocksWithSameColour(new Side(new Block[3][3]), Colour.RED);
+        Side side5 = initializeBlocksWithSameColour(new Side(new Block[3][3]), Colour.WHITE);
+        Side side6 = initializeBlocksWithSameColour(new Side(new Block[3][3]), Colour.YELLOW);
 
         list.add(side1);
         list.add(side2);
@@ -37,6 +30,7 @@ public class RubiksCube {
         list.add(side4);
         list.add(side5);
         list.add(side6);
+
         return list;
 
     }
