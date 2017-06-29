@@ -3,14 +3,12 @@ package crackingCodingInterview.arraysandstrings;
 import org.junit.Test;
 
 /**
- * Implement an algorithm to determine if a string has all unique characters. What if
- * you cannot use additional data structures?
+ * Created by vasanthan on 2017-06-27.
  */
 public class Excercise1 {
 
-    boolean[] array = new boolean[256];
-
-    public boolean isAllUniqueCharacters(String input) {
+    public boolean isUniqueCharacters(String input) {
+        boolean[] array = new boolean[256];
         for (Character c : input.toCharArray()) {
             if (array[c] == true) {
                 return false;
@@ -23,7 +21,7 @@ public class Excercise1 {
 
     @Test
     public void test() {
-        System.out.println(isAllUniqueCharacters("abc"));
-        System.out.println(isAllUniqueCharacters("vasanth"));
+        System.out.println(isUniqueCharacters("vasanth"));
+        System.out.println(isUniqueCharacters("abc"));
     }
 }

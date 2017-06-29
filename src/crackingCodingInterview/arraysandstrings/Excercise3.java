@@ -5,29 +5,24 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
- * Given two strings, write a method to decide if one is a permutation of the other.
+ * Created by vasanthan on 2017-06-27.
  */
 public class Excercise3 {
 
     public boolean isPermutationOfEachOther(String s1, String s2) {
-        char[] array1 = getArray(s1.toCharArray());
-        char[] array2 = getArray(s2.toCharArray());
-
-        if (Arrays.equals(array1, array2)) {
+        char[] c1 = s1.toCharArray();
+        char[] c2 = s2.toCharArray();
+        Arrays.sort(c1);
+        Arrays.sort(c2);
+        if (Arrays.equals(c1, c2)) {
             return true;
-        } else return false;
-    }
-
-    public char[] getArray(char[] input) {
-        char[] temp = new char[256];
-        for (Character c : input) {
-            temp[c] = (char) (temp[c] + 1);
         }
-        return temp;
+        return false;
     }
 
     @Test
     public void test() {
-        System.out.println(isPermutationOfEachOther("abcde","cdeab"));
+        System.out.println(isPermutationOfEachOther("abc", "cba"));
+        System.out.println(isPermutationOfEachOther("abc", "cbad"));
     }
 }
